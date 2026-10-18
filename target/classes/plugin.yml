@@ -1,0 +1,40 @@
+name: NovaEnderChest
+version: 1.0.0
+main: ir.novapixel.novaenderchest.NovaEnderChest
+api-version: '1.21'
+author: NovaPixel
+description: Level based private Ender Chest system
+
+commands:
+  ec:
+    description: Open Nova Ender Chest
+    usage: /ec open
+
+  nec:
+    description: Open Nova Ender Chest
+    usage: /nec open
+
+permissions:
+  nova.enderchest.use:
+    description: Allows using Nova Ender Chest
+    default: true
+
+  nova.enderchest.level.1:
+    description: Nova Ender Chest Level 1
+    default: true
+
+  nova.enderchest.level.2:
+    description: Nova Ender Chest Level 2
+    default: false
+
+  nova.enderchest.level.3:
+    description: Nova Ender Chest Level 3
+    default: false
+
+  nova.enderchest.level.4:
+    description: Nova Ender Chest Level 4
+    default: false
+
+  nova.enderchest.level.5:
+    description: Nova Ender Chest Level 5
+    default: false

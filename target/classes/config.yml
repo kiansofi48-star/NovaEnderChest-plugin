@@ -1,0 +1,29 @@
+levels:
+  1:
+    rows: 1
+    permission: "nova.enderchest.level.1"
+
+  2:
+    rows: 2
+    permission: "nova.enderchest.level.2"
+
+  3:
+    rows: 3
+    permission: "nova.enderchest.level.3"
+
+  4:
+    rows: 4
+    permission: "nova.enderchest.level.4"
+
+  5:
+    rows: 6
+    permission: "nova.enderchest.level.5"
+
+messages:
+  no-permission: "&cشما دسترسی استفاده از Nova Ender Chest را ندارید."
+  opened: "&aNova Ender Chest &7Level %level% &aباز شد."
+  only-player: "&cاین دستور فقط برای بازیکن است."
+
+settings:
+  chest-interaction: true
+  prevent-vanilla-enderchest: true
